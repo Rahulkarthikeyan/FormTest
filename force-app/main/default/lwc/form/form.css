@@ -1,0 +1,29 @@
+/* .name{
+    padding: 10px;
+    
+}
+
+.email{
+    padding: 10px;
+}
+
+.phone{
+    padding: 10px;
+} */
+
+.my-custom-class {
+    background-color: #dae5ec;
+    border: 1px solid #060101;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.my-picture-class{
+    float: right;
+    position: relative;
+    max-width: 50%;
+    height: auto;
+    left: -140px;
+    bottom: 380px;
+}

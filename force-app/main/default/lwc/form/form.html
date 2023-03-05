@@ -1,0 +1,12 @@
+<template>
+    <div class="my-custom-class">
+        <lightning-input label="Name" value={name} onchange={handleNameChange} class="name"></lightning-input>
+        <lightning-input label="Email" type="email" value={email} onchange={handleEmailChange} class="email"></lightning-input>
+        <lightning-input label="Phone" type="tel" value={phone} onchange={handlePhoneChange} class="phone"></lightning-input>
+        <lightning-input label="Age" value={age} onchange={handleAgeChange}></lightning-input>
+        <lightning-input label="Address" value={address} onchange={handleAddressChange}></lightning-input>
+    </br>
+     <lightning-button label="Save" variant="brand" onclick={handleSave}></lightning-button>
+    </div>
+    <div class="my-picture-class"><img src={pictureUrl}/></div>
+  </template>
